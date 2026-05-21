@@ -112,55 +112,12 @@ plt.show()
 ```
 ## Output:
 ![SVM For Spam Mail Detection](sam.png)
-```
-Detected Encoding: {'encoding': 'Windows-1252', 'confidence': 0.7270322499829184, 'language': ''}
- v1 v2 Unnamed: 2 \
-0 ham Go until jurong point, crazy.. Available only ... NaN 
-1 ham Ok lar... Joking wif u oni... NaN 
-2 spam Free entry in 2 a wkly comp to win FA Cup fina... NaN 
-3 ham U dun say so early hor... U c already then say... NaN 
-4 ham Nah I don't think he goes to usf, he lives aro... NaN 
-Unnamed: 3 Unnamed: 4 
-0 NaN NaN 
-1 NaN NaN 
-2 NaN NaN 
-3 NaN NaN 
-4 NaN NaN 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 5572 entries, 0 to 5571
-Data columns (total 5 columns):
-# Column Non-Null Count Dtype 
---- ------ -------------- ----- 
-0 v1 5572 non-null object
-1 v2 5572 non-null object
-2 Unnamed: 2 50 non-null object
-3 Unnamed: 3 12 non-null object
-4 Unnamed: 4 6 non-null object
-dtypes: object(5)
-memory usage: 217.8+ KB
-None
-v1 0
-v2 0
-Unnamed: 2 5522
-Unnamed: 3 5560
-Unnamed: 4 5566
-dtype: int64
-```
+<img width="996" height="816" alt="image" src="https://github.com/user-attachments/assets/a5efaf81-51c8-4cf1-affd-6bbb3d107e19" />
+
 <img width="472" height="391" alt="download" src="https://github.com/user-attachments/assets/34b31b54-a952-4095-bf78-667f5e5ebf9e" />
 <img width="549" height="391" alt="download" src="https://github.com/user-attachments/assets/e9202cdc-2576-495b-9a25-03926fef4025" />
-```
-Accuracy: 0.9811659192825112
+<img width="563" height="275" alt="image" src="https://github.com/user-attachments/assets/c9af3dcb-4bd0-4c89-950d-d3eb03a7f8b2" />
 
-Classification Report:
-               precision    recall  f1-score   support
-
-         ham       0.98      1.00      0.99       949
-        spam       0.98      0.89      0.93       166
-
-    accuracy                           0.98      1115
-   macro avg       0.98      0.94      0.96      1115
-weighted avg       0.98      0.98      0.98      1115
-```
 <img width="444" height="391" alt="download" src="https://github.com/user-attachments/assets/6c05d3c0-b825-4b06-80e5-9b203a0b0b1d" />
 
 
